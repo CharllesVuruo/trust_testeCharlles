@@ -1,0 +1,25 @@
+.container {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url("../../../assets/img/acesso/acesso.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    p {
+        font-size: 35px;
+        color: white;
+    }
+
+    .span {
+        color: yellowgreen;
+    }
+
+    a {
+        font-size: 20px;
+        color: white;
+    }

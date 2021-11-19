@@ -1,0 +1,33 @@
+<div class="container">
+
+  <div class="box-login">
+
+    <div class="title">
+      <h1>Acesse sua conta</h1>
+      <small>Ainda não possui uma conta? <a href="#">Cadastre-se aqui!</a></small>
+    </div>
+
+    <div class="itens">
+      <label class="error-msg">{{msg}}</label>
+    </div>
+
+    <form [formGroup]="oForm">
+
+      <div class="itens">
+        <input formControlName="nomeUsuario" type="text" placeholder="Nome de usuário">
+
+      </div>
+
+      <div class="itens">
+        <label>Senha:</label>
+        <input formControlName="senha" type="password" placeholder="*********">
+      </div>
+
+      <div class="itens">
+        <button class="submit" (click)="onEntrar(oForm)">Entrar</button>
+        <a href="#">Esqueci minha senha</a>
+      </div>
+
+    </form>
+  </div>
+</div>
